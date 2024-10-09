@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PowerUpResource" load_steps=4 format=3 uid="uid://c14trksfpgvgn"]
+
+[ext_resource type="Script" path="res://Resources/power_up_config.gd" id="1_6kqnv"]
+[ext_resource type="Texture2D" uid="uid://cligoc40ifurn" path="res://Assets/Weapons/LaserCrown.png" id="2_rp3pt"]
+[ext_resource type="Texture2D" uid="uid://wcx2pc32pn1a" path="res://Assets/Weapons/PowerLaserCrown.png" id="3_yxniu"]
+
+[resource]
+script = ExtResource("1_6kqnv")
+sprite_1 = ExtResource("3_yxniu")
+action = 1
+shoot_sprite = ExtResource("2_rp3pt")
+shoot_width = 0.0
+shoot_height = 0.0

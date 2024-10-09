@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqyh73tqq5lyg"]
+
+[ext_resource type="Script" path="res://powerUp.gd" id="1_w4ebd"]
+[ext_resource type="Texture2D" uid="uid://wcx2pc32pn1a" path="res://Assets/Weapons/PowerLaserCrown.png" id="2_0v6ow"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nqhem"]
+radius = 17.0294
+
+[node name="PowerUo" type="Area2D"]
+script = ExtResource("1_w4ebd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.835937, -0.875)
+scale = Vector2(0.408813, 0.361328)
+texture = ExtResource("2_0v6ow")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_nqhem")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cm4mfix78nxpn"]
+
+[ext_resource type="Script" path="res://Scenes/explosion.gd" id="1_5fcg5"]
+[ext_resource type="Texture2D" uid="uid://cka4rk52i2mxs" path="res://Assets/Weapons/43307952_9003921.png" id="2_pi0u4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ffv7h"]
+
+[node name="Explosion" type="Area2D"]
+collision_layer = 128
+collision_mask = 4
+script = ExtResource("1_5fcg5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.012, 0.012)
+texture = ExtResource("2_pi0u4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ffv7h")
+
+[node name="ExplosionExpand" type="Timer" parent="."]
+wait_time = 0.07
+autostart = true

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="PowerUpResource" load_steps=3 format=3 uid="uid://bss60o6p2dy1x"]
+
+[ext_resource type="Script" path="res://Resources/power_up_config.gd" id="1_2jsq4"]
+[ext_resource type="Texture2D" uid="uid://bggjitmo1byod" path="res://Assets/Weapons/Laser.png" id="2_brrln"]
+
+[resource]
+script = ExtResource("1_2jsq4")
+sprite_1 = ExtResource("2_brrln")
+action = -1
+shoot_sprite = ExtResource("2_brrln")
+shoot_width = 1.0
+shoot_height = 1.0
