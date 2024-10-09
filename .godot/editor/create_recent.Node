@@ -1,0 +1,14 @@
+Sprite2D
+Timer
+CollisionShape2D
+Area2D
+Node2D
+AnimationPlayer
+Label
+HBoxContainer
+VBoxContainer
+MarginContainer
+TextureRect
+Button
+CenterContainer
+CanvasLayer
